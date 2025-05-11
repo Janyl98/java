@@ -6,6 +6,7 @@ public class Twonumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(max(5, 9));  // Чыгуу: 9
+        System.out.println(max(5, 9));  // Чыгуу:
+
     }
 }

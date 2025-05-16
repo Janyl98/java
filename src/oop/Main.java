@@ -6,6 +6,8 @@ Main классында эки объект жаралып, аларга ар б
 
  */
 
+import oop.Encapsulation.Encapsulation;
+
 public class Main {
     public static void main(String[] args) {
         // Биринчи объект
@@ -26,5 +28,18 @@ public class Main {
 
         cat2.displayInfo();
         cat2.meow();
+
+        // / ////////////////////
+       Encapsulation encapsulation = new Encapsulation();
+
+        // Маалыматтарды setter менен орнотуу
+        encapsulation.setName("Aibek");
+       encapsulation.setAge(25);
+
+        // Маалыматтарды getter менен алуу
+        System.out.println("Аты: " + encapsulation.getName());
+        System.out.println("Жашы: " + encapsulation.getAge());
     }
+
+
 }
